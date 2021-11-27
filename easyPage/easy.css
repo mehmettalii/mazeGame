@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/redkit.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -80px;
+}
+
+/* Ana sayfaya dönüş */
+
+.town {
+  position: relative;
+}
+
+.daisy {
+  position: absolute;
+  width: 100px;
+  border-radius: 50%;
+  left: 90px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.town p {
+  display: none;
+  position: absolute;
+  color: white;
+  left: 90px;
+  top: 130px;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.town img:hover + p {
+  display: inline;
+}
+
+/* Maze */
+
+#easyMaze {
+  position: absolute;
+  width: 500px;
+  height: 350px;
+  margin: 160px 50%;
+  transform: translate(-75%);
+  border-radius: 8px;
+  padding-left: 28px;
+  padding-top: 40px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  font-weight: bolder;
+  color: chartreuse;
+}
+
+/* Oyun bitiş uyarısı */
+
+.swal2-popup img {
+  margin: 0px;
+  border-radius: 6px;
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/sky.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* Ana sayfaya dönüş */
+
+.town {
+  position: relative;
+}
+
+.daisy {
+  position: absolute;
+  width: 100px;
+  border-radius: 50%;
+  left: 90px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.town p {
+  display: none;
+  position: absolute;
+  color: black;
+  left: 90px;
+  top: 130px;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.town img:hover + p {
+  display: inline;
+}
+
+/* Maze */
+
+#masterMaze {
+  position: absolute;
+  color: darkred;
+  margin: 175px 45%;
+  transform: translate(-50%);
+  border-radius: 8px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-weight: bolder;
+  opacity: 0.7;
+}
+
+/* Oyun bitiş uyarısı */
+
+.swal2-popup img {
+  margin: 0px;
+  border-radius: 6px;
+}

@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/shadow.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* Ana sayfaya dönüş */
+
+.town {
+  position: relative;
+}
+
+.daisy {
+  position: absolute;
+  width: 100px;
+  border-radius: 50%;
+  left: 90px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.town p {
+  display: none;
+  position: absolute;
+  color: black;
+  left: 90px;
+  top: 130px;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.town img:hover + p {
+  display: inline;
+}
+
+/* Maze */
+
+#middleMaze {
+  position: absolute;
+  color: black;
+  margin: 120px 45%;
+  transform: translate(-50%);
+  border-radius: 8px;
+  padding-left: 38px;
+  padding-top: 40px;
+  font-size: 28px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  font-weight: bolder;
+}
+
+/* Oyun bitiş uyarısı */
+
+.swal2-popup img {
+  margin: 0px;
+  border-radius: 6px;
+}

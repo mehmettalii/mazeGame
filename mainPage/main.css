@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/bgMaster.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* Redkit logo */
+
+.logo img {
+  position: relative;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 30px #000;
+}
+
+/* Oyun Başlığı */
+
+.title {
+  position: relative;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  top: 90px;
+  height: 100px;
+  width: 300px;
+}
+
+.title h2 {
+  background-color: rgb(254, 233, 69);
+  color: red;
+  font-size: 40px;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  padding: 5px 0px;
+  box-shadow: 0px 4px 10px #000;
+}
+
+/* Bölümlerin seviyeleri ve bölümleri açacak butonlar */
+
+.btn-container {
+  display: flex;
+  position: relative;
+  width: 700px;
+  left: 50%;
+  transform: translate(-49%);
+  top: 90px;
+}
+.level1 {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background-image: url(../images/rintintin.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -4px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 4px 10px #000;
+  cursor: pointer;
+}
+.green {
+  position: absolute;
+  background-color: rgb(106, 245, 106);
+  width: 100px;
+  height: 20px;
+  left: 50%;
+  transform: translate(-50px);
+  top: 175px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px #000;
+
+  text-align: center;
+  color: white;
+  padding-top: 1px;
+  letter-spacing: 2px;
+}
+
+.level2 {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 140px;
+  background-image: url(../images/düldül.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: -45px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 4px 10px #000;
+  cursor: pointer;
+  margin: 0px 100px;
+}
+
+.blue {
+  position: absolute;
+  background-color: rgb(101, 200, 233);
+  width: 100px;
+  height: 20px;
+  left: 50%;
+  transform: translate(-50px);
+  top: 175px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px #000;
+
+  text-align: center;
+  color: white;
+  padding-top: 1px;
+  letter-spacing: 2px;
+}
+
+.level3 {
+  position: absolute;
+  background-color: rgb(214, 210, 210);
+  width: 200px;
+  height: 150px;
+  left: 480px;
+  background-image: url(../images/posta.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: -10px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 4px 10px #000;
+  cursor: pointer;
+}
+
+.red {
+  position: absolute;
+  background-color: red;
+  width: 100px;
+  height: 20px;
+  left: 50%;
+  transform: translate(-50px);
+  top: 175px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px #000;
+
+  text-align: center;
+  color: white;
+  padding-top: 1px;
+  letter-spacing: 2px;
+}
