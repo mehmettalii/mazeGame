@@ -3,7 +3,7 @@
 - Oyun labirent oyunudur.
 - Farklı zorluk seviyesindeki üç bölümden oluşmaktadır.
 - Tek oyuncu ile oynanır.
-- Oyuncu anasayfadan hangi bölümde oynayacağını seçer.
+- Oyuncu ana sayfadan hangi bölümde oynayacağını seçer.
 - Oyun, seçtiğiniz bölümden önceki bölümleri yapıp yapmadığınızı sorar. Yapmadığınızı belirtirseniz önce onları yapmanızı ister ve yeni bölümü açmaz.
 ### Oyun
 - Bölüm açıldığında "0" ve "1" lerden oluşan bir labirent görülür.
